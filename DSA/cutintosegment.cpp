@@ -21,7 +21,7 @@ int main()
     int n=7;
     int x=5;
     int y=2;
-    int z=2;
+    int z=3;
     int ans= segments(n,x,y,z);
     if(ans <0) ans=0;
     cout<< ans;
