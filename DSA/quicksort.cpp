@@ -32,14 +32,14 @@ int partition( int* arr, int s, int e)
     {
         j--;
     }
-
+ // agar koi element left side me bada hai or right side me koi element
+    // chhota hai to unko swap kar do
     if(i < pivotindex && j > pivotindex)
     {
         swap(arr[i], arr[j]);
     }
 }
-// agar koi element left side me bada hai or right side me koi element
-    // chhota hai to unko swap kar do
+
    
     return pivotindex;
 
