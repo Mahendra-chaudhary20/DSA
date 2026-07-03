@@ -5,7 +5,7 @@
 using namespace std;
 void merge(int* arr, int s, int mid, int e)
 { int start= mid+1;
-    if( arr[start]>= arr[mid]) // this represent that array is all ready sorted
+    if( arr[start]>= arr[mid]) //   this represent that array is all ready sorted
     {return;}
     // if not sorted then
      while (s <= mid && start<= e) 
