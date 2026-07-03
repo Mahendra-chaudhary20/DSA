@@ -53,7 +53,7 @@ void quicksort( int* arr, int s, int e)
     int p= partition(arr,s,e);
     // recursion
 
-  quicksort(arr,s,p-1);  // left of pivot element
+  quicksort(arr,s,p-1);  //   left of pivot element
   quicksort(arr,p+1,e);  // right of pivot element
 }
 int main()
